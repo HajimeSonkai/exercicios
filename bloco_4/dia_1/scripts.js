@@ -142,9 +142,9 @@ console.log("");
 
 //NOTE Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
 
-let numum = 1;
-let numdos = 2;
-let numtres = 3;
+let numum = Math.ceil(Math.random()*100);
+let numdos = Math.ceil(Math.random()*100);
+let numtres = Math.ceil(Math.random()*100);
 let prova = null;
 
 if (numum % 2 == 0 || numdos % 2 == 0 || numtres % 2 ==0) {
@@ -153,4 +153,7 @@ if (numum % 2 == 0 || numdos % 2 == 0 || numtres % 2 ==0) {
   prova = false
 }
 
+console.log(numum);
+console.log(numdos);
+console.log(numtres);
 console.log(prova);
