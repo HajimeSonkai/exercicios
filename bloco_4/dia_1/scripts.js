@@ -137,3 +137,20 @@ if (nota >= 90 && nota < 101) {
 } else {
     console.log("erro nota deve ser entre 0 e 100");
 }
+
+console.log("");
+
+//NOTE Escreva um programa que defina três números em variáveis e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false.
+
+let numum = 1;
+let numdos = 2;
+let numtres = 3;
+let prova = null;
+
+if (numum % 2 == 0 || numdos % 2 == 0 || numtres % 2 ==0) {
+  prova = true
+} else {
+  prova = false
+}
+
+console.log(prova);
