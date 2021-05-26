@@ -7,3 +7,10 @@ document.getElementById("second-paragraph").innerText = "esse texto é rosa";
 document.getElementById("second-paragraph").style.color = "pink";
 
 document.getElementById("subtitle").style.backgroundColor = "green"
+
+document.getElementsByClassName("paragra")[0].style.backgroundColor = "black"
+
+document.getElementsByTagName("h4")[0].style.color = "purple"
+
+const documentoP = document.getElementsByTagName("p");
+console.log(documentoP);
