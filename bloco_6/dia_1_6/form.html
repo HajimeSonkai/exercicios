@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="get" enctype="multipart/form-data"></form>
+    <fieldset id="formulario1">
+        <label for="user">Nome:
+            <input type="text" name="nome" id="user" placeholder="Seu nome" maxlength="40'" required>
+        </label>
+        <label for="email">E-mail:
+            <input type="text" name="correio" id="email" placeholder="Seu E-mail" maxlength="50'" required>
+        </label>
+        <label for="cpf">CPF:
+            <input type="text" name="CPF" id="cpf" placeholder="Seu CPF" maxlength="11'" required>
+        </label>
+        <label for="endereco">Endereço:
+            <input type="text" name="endereço" id="endereco" placeholder="Seu endereço" maxlength="200'" required>
+        </label>
+        <label for="cidade">Cidade:
+            <input type="text" name="cidade" id="cidade" placeholder="Sua Cidade" maxlength="28'" required>
+        </label>
+        <label for=""> Estado: 
+            <select name="estado" id="opt-estado">
+                <option value="rj">Rio De Janeiro</option>
+                <option value="sp">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="BH">Belo Horizonte</option>
+            </select>
+        </label>
+        <p>Tipo de residencia:</p>
+        <label for="casa">
+            <input type="radio" name="residencia" id="casa" value="casa">casa
+        </label>
+        <label for="apartamento">
+            <input type="radio" name="residencia" id="apartamento" value="apartamento">apartamento
+        </label>
+    </fieldset>
+</body>
+</html>
