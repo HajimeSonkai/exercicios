@@ -9,3 +9,27 @@ for (const states of estados) {
     opt.innerHTML = states;
     opcoes.appendChild(opt);
 }
+
+//butão de salvar
+
+const butSalvar = document.getElementById('salvar');
+
+butSalvar.addEventListener('click', dataCerta);
+
+//alert de data errada
+var data = document.getElementById('data')
+
+var date_regex = /^(0[1-9]|1\d|2\d|3[01])\/(0[1-9]|1[0-2])\/(19\d\d|20\d\d)$/;
+
+function dataCerta() {
+    var dataTest = data.value
+    
+    if (date_regex.test(dataTest)) {
+            document.getElementById("message").innerHTML = "Date follows dd/mm/yy format";
+        }
+        else{
+          document.getElementById("message").innerHTML = "Invalid date format";
+        }
+        console.log(dataTest)
+
+}

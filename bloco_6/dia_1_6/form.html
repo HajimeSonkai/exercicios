@@ -47,7 +47,7 @@
 
     <fieldset>
         <p>Resumo do seu currículo</p>
-        <textarea name="curriculo" id="curriculo" cols="30" rows="10" maxlength="500'" required placeholder="Escreva seu curriculo"></textarea>
+        <textarea name="curriculo" id="curriculo" cols="30" rows="10" maxlength="1000'" required placeholder="Escreva seu curriculo"></textarea>
 
         <label for="cargo">Cargo:
             <input type="text" name="cargo" id="cargo" placeholder="Seu Cargo" maxlength="40'" required>
@@ -61,8 +61,9 @@
             <input type="text" name="dataini" id="data" placeholder="dd/mm/aaaa" maxlength="10'" required>
         </label>
     </fieldset>
-    <button type="submit">salvar</button>
+    <button type="submit" id="salvar">salvar</button>
     </form>
+    <p id="message"></p>
     <script src="script.js"></script>
 </body>
 </html>
