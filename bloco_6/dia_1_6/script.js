@@ -28,8 +28,13 @@ function dataCerta() {
             document.getElementById("message").innerHTML = "Date follows dd/mm/yy format";
         }
         else{
+        
           document.getElementById("message").innerHTML = "Invalid date format";
         }
         console.log(dataTest)
 
 }
+
+function preventDef(event) {
+    event.preventDefault();
+  }
